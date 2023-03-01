@@ -4,9 +4,8 @@
   "description": "connect any websocket module",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc",
-    "start": "node build/app.js",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q build/index.js\""
+    "build": "./node_modules/typescript/bin/tsc",
+    "start": "node build/app.js"
   },
   "author": "",
   "license": "ISC",
